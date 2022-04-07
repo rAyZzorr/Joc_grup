@@ -1,6 +1,6 @@
 	
 
-	Sokoban (pack)
+	Platformer Characters 1
 
 	by  Kenney Vleugels (Kenney.nl)
 
