@@ -12,7 +12,7 @@ var direccio = Vector2.ZERO
 var moviment := Vector2.ZERO
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	position= Vector2(300,500)
+	position= Vector2(30,230)
 
 
 
@@ -45,3 +45,7 @@ func anima(moviment:Vector2):
 		$AnimatedSprite.play("camina cara")
 	if moviment.x == 0 and moviment.y == 0:
 		$AnimatedSprite.play("cara")
+
+
+func _on_ports_casa_gran_body_entered(body):
+	get_tree().change_scene("res://escena1_Casa.tscn")
