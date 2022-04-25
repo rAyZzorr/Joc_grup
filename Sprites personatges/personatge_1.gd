@@ -48,4 +48,5 @@ func anima(moviment:Vector2):
 
 
 func _on_ports_casa_gran_body_entered(body):
-	get_tree().change_scene("res://escena1_Casa.tscn")
+	get_tree().change_scene("res://scenes/escena1_Casa.tscn")
+	# canviar limits camera
