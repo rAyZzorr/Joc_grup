@@ -21,9 +21,9 @@ animations = [ {
 "name": "camina esquena",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 8 ) ],
+"frames": [ ExtResource( 3 ), ExtResource( 5 ) ],
 "loop": true,
-"name": "costat",
+"name": "camina cara",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 4 ) ],
@@ -41,9 +41,9 @@ animations = [ {
 "name": "esquena",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 3 ), ExtResource( 5 ) ],
+"frames": [ ExtResource( 8 ) ],
 "loop": true,
-"name": "camina cara",
+"name": "costat",
 "speed": 5.0
 } ]
 

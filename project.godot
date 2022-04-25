@@ -65,6 +65,12 @@ esquerra={
  ]
 }
 
+[layer_names]
+
+2d_physics/layer_1="Personatge"
+2d_physics/layer_2="Terreny"
+2d_physics/layer_3="Portals"
+
 [physics]
 
 common/enable_pause_aware_picking=true
