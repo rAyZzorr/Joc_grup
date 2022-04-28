@@ -1,10 +1,23 @@
 extends KinematicBody2D
 
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = "text"
+
+
+# Called when the node enters the scene tree for the first time.
 var velocitat = Vector2(100,-100)
 var direccio = Vector2.ZERO
 var moviment := Vector2.ZERO
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	position= Vector2(30,230)
 
 
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	direccio = Vector2.ZERO
 	if Input.is_action_pressed("dreta"):
@@ -35,16 +48,5 @@ func anima(moviment:Vector2):
 
 
 func _on_ports_casa_gran_body_entered(body):
-	Global.lastpos = global_position + Vector2(0, 10)
-	get_tree().change_scene("res://scenes/escena_Casa.tscn")
-
-
-func _on_Area2D_body_entered(body):
-	print(body)
-	Global.lastpos = global_position + Vector2(0, 10)
-	get_tree().change_scene("res://scenes/escena_Casa2.tscn")
-
-
-func _on_casa3_body_entered(body):
-	Global.lastpos = global_position + Vector2(0, 10)
-	get_tree().change_scene("res://scenes/escena_Casa3.tscn")
+	get_tree().change_scene("res://scenes/escena1_Casa.tscn")
+	# canviar limits camera

@@ -14,10 +14,6 @@ config/name="JOC_GRUP"
 run/main_scene="res://scenes/main.tscn"
 config/icon="res://Merda/icon.png"
 
-[autoload]
-
-Global="*res://scenes/scripts/Global.gd"
-
 [importer_defaults]
 
 texture={
