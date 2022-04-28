@@ -818,6 +818,21 @@ position = Vector2( 53, 228 )
 scale = Vector2( 1.00144, 1 )
 collision_mask = 6
 
+<<<<<<< Updated upstream:scenes/main.tscn
+=======
+[node name="Camera2D" type="Camera2D" parent="Personatge1"]
+position = Vector2( 0, 1 )
+current = true
+zoom = Vector2( 0.4, 0.4 )
+limit_left = 10
+limit_top = 0
+limit_right = 1030
+limit_bottom = 608
+
+[node name="Node2D" type="Node2D" parent="."]
+position = Vector2( 1036, 605 )
+
+>>>>>>> Stashed changes:main.tscn
 [node name="Label" type="Label" parent="."]
 anchor_right = 0.615
 margin_left = 28.0
