@@ -41,7 +41,7 @@ func _on_ports_casa_gran_body_entered(body):
 
 func _on_Area2D_body_entered(body):
 	print(body)
-	Global.lastpos = global_position + Vector2(0, 10)
+	Global.lastpos = global_position + Vector2(0, 20)
 	get_tree().change_scene("res://scenes/escena_Casa2.tscn")
 
 

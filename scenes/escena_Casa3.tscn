@@ -206,7 +206,7 @@ position = Vector2( 208, -18.5 )
 shape = SubResource( 3 )
 
 [node name="Personatge1" parent="." instance=ExtResource( 3 )]
-position = Vector2( 188, 19 )
+position = Vector2( 226, 10 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
 margin_left = 57.0

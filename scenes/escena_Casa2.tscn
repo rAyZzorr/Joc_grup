@@ -199,6 +199,6 @@ margin_right = 63.0
 margin_bottom = 81.0
 
 [node name="Personatge1" parent="." instance=ExtResource( 3 )]
-position = Vector2( 208, 14 )
+position = Vector2( 224, 13 )
 
 [connection signal="body_entered" from="TileMap/Area2D" to="." method="_on_Area2D_body_entered"]
